@@ -1,1 +1,2 @@
 # Extra-Long-Factorials
+This C# program calculates the factorial of a number `n`, even for very large values that cannot fit in standard integer types. The `extraLongFactorials` function multiplies numbers from 2 to `n` using a `List<int>` to store each digit of the result separately, handling carry-over manually. After computing the full factorial, it reverses the list and prints the number as a string. The `Main` method reads the input `n` and calls this function to display the factorial.
